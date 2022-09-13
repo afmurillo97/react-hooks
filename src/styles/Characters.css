@@ -1,0 +1,34 @@
+.Characters{
+    display: flex;
+    flex-wrap: wrap;
+    gap:90px;
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+.Characters-Card{
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(127,255,0,1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(127,255,0,1);
+    box-shadow: 4px 4px 0px 0px rgba(127,255,0,1);
+}
+
+.Character-image{
+    width: 250px;
+    height: 250px;
+}
+
+.Character-data{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.TitleLight{
+    color: black;
+}
+
+.TitleDark{
+    color: white;
+}
