@@ -1,0 +1,33 @@
+.Header{
+    display: flex;
+    background-color:chartreuse;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.TitleLight{
+    color: black;
+}
+
+.TitleDark{
+    color: white;
+}
+
+.HeaderButton{
+    font-family: 'Combo', cursive;
+    cursor: pointer;
+    margin: 18px;     
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.Dark{
+    background-color: black;
+    color: white;
+}
+
+.Light{
+    background-color: white;
+    color: black;
+}
